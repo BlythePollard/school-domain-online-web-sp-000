@@ -21,8 +21,8 @@ class School
   
   def sort
      roster.sort_by { |key, value| value}
-      return value 
-     value.sort_by {|first, last| first}.to_h
+    #  return value 
+    # value.sort_by {|first, last| first}.to_h
     
   end
 end

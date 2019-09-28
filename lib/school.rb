@@ -23,6 +23,5 @@ class School
     roster.sort_by { |grade, name| name }
     end
   end
-  end
 end
 

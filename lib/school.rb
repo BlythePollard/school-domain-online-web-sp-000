@@ -4,7 +4,7 @@ class School
   def initialize(name)
     @name = name
     @roster = {}
-end
+  end
   
   def add_student(name, grade)
     roster = @roster
@@ -13,11 +13,14 @@ end
     else roster[grade] = []
       roster[grade] << name
     end
-end
+  end
 
   def grade(grade)
     return roster[grade]
   end
+  
+  def sort(name, grade)
+    return roster[grade].sort
 end
 
 

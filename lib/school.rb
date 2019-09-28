@@ -19,8 +19,8 @@ class School
     return roster[grade]
   end
   
-  def sort(grade)
-    
+  def sort(grade, name)
+    roster.sort { |grade, name| grade[1]<=>name[1] }
 end
 end
 

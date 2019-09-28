@@ -23,7 +23,7 @@ class School
      roster.each do |key, value|
        value.each do |name1, name2|
          
-     roster.sort_by { |key, value| value}.to_h
+    # roster.sort_by { |key, value| value}.to_h
      #value.values.sort_by {|first, last| first}.to_h
     
   end

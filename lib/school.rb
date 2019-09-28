@@ -22,7 +22,6 @@ class School
   def sort
     roster = @roster
     roster.sort
-     
   end
 end
 

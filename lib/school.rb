@@ -16,7 +16,7 @@ end
 end
 
   def grade(grade)
-    
+    roster[]
   end
 end
 

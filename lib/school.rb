@@ -21,7 +21,7 @@ class School
   
   def sort
      roster.map do |key, value|
-       value.sort {|first, last| first}.to_h
+       value.sort 
     end
   end
 end

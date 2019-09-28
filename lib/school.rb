@@ -19,8 +19,8 @@ class School
     return roster[grade]
   end
   
-  def sort
-    roster = @roster
+  #def sort
+  #  roster = @roster
     roster.sort
   end
 end

@@ -20,7 +20,9 @@ class School
   end
   
   def sort
-     roster.values.sort
+     roster.values.sort!
+     return roster
+     
   end
 end
 

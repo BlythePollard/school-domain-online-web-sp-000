@@ -19,7 +19,7 @@ class School
     return roster[grade]
   end
   
-  def sort
+  def sort(grade)
     roster.sort
     roster.grade.sort_by { |key| roster[key] }.each do
 |key|

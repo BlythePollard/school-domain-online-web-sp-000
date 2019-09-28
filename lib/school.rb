@@ -23,5 +23,6 @@ class School
     roster.sort { |grade, name| grade[1]<=>name[1] }
 end
 end
+end
 
 

@@ -20,7 +20,7 @@ class School
   end
   
   def sort
-     roster.value.sort_by { |key, value| value}
+     roster.sort_by { |key, value| value}
     #  return value 
     # value.sort_by {|first, last| first}.to_h
     

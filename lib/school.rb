@@ -20,11 +20,7 @@ class School
   end
   
   def sort(grade)
-    roster.sort
-    roster.grade.sort_by { |key| roster[key] }.each do
-|key|
-    puts roster[key]
-end
+    
 end
 end
 

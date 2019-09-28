@@ -23,6 +23,7 @@ class School
      roster.map do |key, value|
      roster[key] = value.sort
   end
+  return roster
   end
 end
 
